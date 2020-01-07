@@ -144,6 +144,6 @@ if __name__ == '__main__':
                          num_workers=1,
                          model='TCN'
                          )
-    lgt.profile()
-    #lgt.train()
+    #lgt.profile()
+    lgt.train()
 
